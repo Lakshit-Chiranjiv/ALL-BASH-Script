@@ -3,7 +3,8 @@
 a='Hello'
 b='Hello'
 
-if [ $a == $b ]
+# double bracket is for null safety
+if [[ $a == $b ]]
 then
     echo "alphabetically equal"
 else
