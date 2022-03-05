@@ -4,7 +4,7 @@ file='hello.txt'
 
 if [[ -r $file ]]
 then
-    echo "$file have read permission"
+    echo "$file has read permission"
 else
     echo "$file does not have read permission"
 fi
